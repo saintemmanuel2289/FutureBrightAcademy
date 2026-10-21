@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+header {
+    background-color: #123b6d;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+header p {
+    margin: 5px 0 15px;
+}
+nav {
+    margin-top: 15px;
+}
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 3px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #d4a72c;
+    color: #123b6d;
+}
+main {
+    width: 95%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+h2 {
+    color: #123b6d;
+    border-bottom: 2px solid #d4a72c;
+    padding-bottom: 8px;
+}
+#courseList {
+    padding-left: 25px;
+}
+
+#courseList li {
+    padding: 6px;
+}
+button {
+    background-color: #123b6d;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #d4a72c;
+    color: #123b6d;
+}
+main a {
+    color: #123b6d;
+}
+#registrationLink {
+    display: inline-block;
+    margin: 15px 0 0 10px;
+    font-weight: bold;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #123b6d;
+}
+input,
+select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #b8c5d6;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: white;
+}
+input:focus,
+select:focus {
+    outline: 2px solid #d4a72c;
+    border-color: #123b6d;
+}
+#homeMessage,
+#aboutMessage,
+#courseMessage,
+#registrationMessage,
+#loginMessage {
+    font-weight: bold;
+}
+footer {
+    background-color: #123b6d;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav a {
+        padding: 8px;
+        margin: 2px;
+    }
+
+    main {
+        width: 94%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    #registrationLink {
+        margin-left: 0;
+    }
+}
